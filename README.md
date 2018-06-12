@@ -5,10 +5,9 @@
 
 Fonte: [http://inspire.ine.pt/AD/atom/downloadservice_en.html](http://inspire.ine.pt/AD/atom/downloadservice_en.html)  
 
-```Total: 5.xxx.xxx endereços``` 
+```Total: 5.911.139 endereços residenciais``` 
 
 Os endereços encontram-se em ficheiros CSV, por [Concelhos de Portugal](https://pt.wikipedia.org/wiki/Lista_de_concelhos_por_NUTS,_distritos_e_ilhas).
-Ou num único ficheiro CSV, para Portugal inteiro.  
 
 Estrutura dos ficheiros CSV:  
 ```id, street, house, postcode, city, longitude, latitude``` 
@@ -16,6 +15,9 @@ Estrutura dos ficheiros CSV:
 
 Issues:
 - amares está com minusculas
+
+Requisitos:
+- Python 2.7
 
 
 ## Abreviaturas
